@@ -1,0 +1,47 @@
+.metro {
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.metro__inner {
+  display: flex;
+  gap: 24px;
+  max-width: 100%;
+  justify-self: center;
+  transform: translateX(0);
+  transition: 180ms all linear;
+}
+
+.metro__arrowLeft,
+.metro__arrowRight {
+  align-items: center;
+  background-color: rgba(0 0 0 / 15%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  padding: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: absolute;
+  width: 48px;
+}
+
+.metro__arrowLeft {
+  left: 0;
+}
+
+.metro__arrowRight {
+  right: 40px;
+}
+
+.metro__arrowLeft > img,
+.metro__arrowRight > img {
+  height: 48px;
+  width: 48px;
+}

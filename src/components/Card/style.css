@@ -1,0 +1,49 @@
+.card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  height: 269px;
+  position: relative;
+  width: 245px;
+}
+
+.card__header {
+  align-self: start;
+  border-radius: 10px 10px 0 0;
+  height: 91px;
+  width: 100%;
+}
+
+.card__figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  inset: 0;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+}
+
+.card__image {
+  border-radius: 50%;
+  display: block;
+  height: 120px;
+  object-fit: cover;
+  width: 120px;
+}
+
+.card__caption {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.card__personName {
+  color: #6278F7;
+}

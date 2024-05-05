@@ -1,0 +1,14 @@
+.banner {
+  background-color: #6278F7;
+  text-align: center;
+}
+
+.banner__picture {
+  display: block;
+  max-width: 100%;
+}
+
+.banner__picture > img {
+  object-fit: contain;
+  width: 100%;
+}

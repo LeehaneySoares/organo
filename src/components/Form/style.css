@@ -1,0 +1,30 @@
+.formulario {
+  background: #dddbdb;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px rgba(0 0 0 / 25%);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 64px 0;
+  padding: 36px 64px;
+}
+
+.formulario__title {
+  font-family: 'Prata', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43.36px;
+}
+
+.formulario__action {
+  background-color: #6278F7;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+  height: 80px;
+  width: 167px;
+}

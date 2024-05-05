@@ -1,0 +1,33 @@
+.footer {
+  background-color: #6278F7;
+  background-image: url('./assets/fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 213px;
+}
+
+.footer__container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.footer__socialMedia {
+  align-items: center;
+  display: flex;
+  gap: 64px;
+  list-style: none;
+}
+
+.footer__logo > img {
+  height: 63px;
+  width: 166px;
+}
+
+.footer__author > strong {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}

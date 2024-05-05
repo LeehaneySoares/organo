@@ -1,0 +1,35 @@
+{
+  "label": "Time:",
+  "optionDefault": "Selecione algum membro do time",
+  "form": "adicionar card dos colaboradores",
+  "options": [
+    {
+      "value": "programming",
+      "option": "Porgramação"
+    },
+    {
+      "value": "frontEnd",
+      "option": "Front-End"
+    },
+    {
+      "value": "devops",
+      "option": "DevOps"
+    },
+    {
+      "value": "dataScience",
+      "option": "Data Science"
+    },
+    {
+      "value": "uxDesign",
+      "option": "UX e Design"
+    },
+    {
+      "value": "mobile",
+      "option": "Mobile"
+    },
+    {
+      "value": "inovationAndManage",
+      "option": "Inovação e Gestão"
+    }
+  ]
+}

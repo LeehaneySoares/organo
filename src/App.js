@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState } from 'react'
+import { Banner, container, Footer, Form, title } from './components'
+import { Repeat } from './elements'
+import schema from './shared/schema'
+import teamList from './shared/teamList'
+import Teams from './shared/teams'
 
-function App() {
+function App () {
+  const [teams, setTeams] = useState([])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Fragment>
+      <Banner />
+      <container.Section className='organo'>
+        <Form onInsertTeam={(data) => setTeams([...teams, data])} />
+      </container.Section>
+      <container.Section className='organo__containerOrganization'>
+        <title.H1 className='organo__myOrganization'>{schema.myOrganizationTitle}</title.H1>
+      </container.Section>
+      <Repeat iterator={teamList} component={Teams(teams)} />
+      <Footer />
+    </Fragment>
+  )
 }
 
-export default App;
+export default App

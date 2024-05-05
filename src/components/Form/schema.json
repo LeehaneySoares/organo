@@ -1,0 +1,30 @@
+{
+  "title": "Preencha os dados para criar o card do colaborador.",
+  "action": "Criar card",
+  "inputs": [
+    {
+      "id": "name",
+      "name": "name",
+      "label": "Nome:",
+      "placeholder": "Digite seu nome",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "office",
+      "name": "office",
+      "label": "Cargo:",
+      "type": "text",
+      "placeholder": "Digite seu cargo",
+      "required": true
+    },
+    {
+      "id": "image",
+      "name": "image",
+      "label": "Imagem:",
+      "placeholder": "Informe o endereço da imagem",
+      "type": "text",
+      "required": true
+    }
+  ]
+}

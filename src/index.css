@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.organo__containerOrganization {
+  text-align: center;
+  margin: 102px auto;
+}
+
+.organo__myOrganization {
+  color: #6278F7;
+  font-family: 'Prata', serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 64px 0;
+}
+
+.organo__myOrganization::after {
+  background-color: #6278F7;
+  content: '';
+  display: block;
+  height: 4px;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 25px);
+  width: 64px;
+}
